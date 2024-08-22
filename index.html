@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+  <title>Final Project</title>
+</head>
+<body>
+    <header>
+            <nav>
+<ul class="nav">
+                <li id="button-1">About Me</li>
+                <li id="button-2">Portfolio</li>
+                <li id="button-3">Contact</li>
+            </ul>
+            </nav>
+        </header>
+
+
+        <aside class="dropdown-menu" id="button-1">
+    <h2 class="about-me-header">About Me</h2>
+    <ul class="about-me-list">
+        <li>Where I'm From</li>
+        <li>Where I Work</li>
+        <li>What I Do</li>
+    </ul>
+</aside>
+
+<aside class="dropdown-menu" id="button-2">
+    <h2 class="portfolio-header-1">Portfolio</h2>
+    <ul class="portfolio-list">
+        <li>My Blogs</li>
+        <li>My Designs</li>
+        <li>My Content</li>
+    </ul>
+</aside>
+
+<aside class="dropdown-menu" id="button-3">
+    <h2 class="contact-header">Contact</h2>
+    <ul class="contact-list">
+        <li>My Number</li>
+        <li>My Email</li>
+        <li> <a href="https://www.linkedin.com/in/juliavincent881323/">My LinkedIn</a></li>
+    </ul>
+</aside>
+
+
+</section>
+
+<section class="search-bar">
+    <input type="text" id="search-input" placeholder="Search...">
+    <button id="search-button">Search</button>
+    </section>
+
+<section class="hero-image">
+   <h1 id="heading-1">My Webpage! </h1>
+   <div class="center-container">
+<p class="spin-text" id="blurb-1">I hope you like my page! Look at all the things I can do!</p>
+</div>
+</section>
+
+<div class="content-container">
+    <header class="portfolio-header my-work image-mask-darken">
+        <div class="my-work-header-content">
+            <h4 class="my-work-title" id="my-work-1">My Work</h4>
+<p class="portfolio-details" id="my-work-1"><a href="https://juliavincent2.journoportfolio.com/">Check out</a> all of my work here! Click it!</p>
+</div>
+</header>
+
+
+  <header class="portfolio-header about-me image-mask-darken">
+    <div class="about-me-header-content">
+      <h4 class="about-me-title">About Me</h4>
+     <p class="portfolio-details-1" id="about-me-details"> <a href="index1.html">Click here</a> to learn more about me! Really! Click Here!</p>
+</div>
+   </header>
+
+
+  <header class="portfolio-header contact-me image-mask-darken">
+    <div class="contact-me-header-content">
+      <h4 class="contact-me-title" id="contact-me-1">Contact Me</h4>
+    <p class="portfolio-details-1" id="portfolio-button">Contact me here! Really! Click it!</p>
+</div>
+  </header>
+
+  <div id="contact-modal" class="modal">
+    <div class="content-modal">
+        <span class="close-btn">&times;</span>
+        <h2>Contact Me</h2>
+       <form id="contact-form">
+        <label for="name">Name:</label>
+        <label for="text" id="name" name="name" required>
+            <br>
+            <label for="Number">Number:</label>
+            <input type="text" id="number" name="number" required>
+           <br> 
+           <button type="submit">Submit</button>
+       </form>
+       <p id="thank-you-message" style="display: none;">Thanks for submitting!</p>
+    </div>
+  </div>
+
+  <header class="portfolio-header follow-me image-mask-darken">
+    <div class="follow-me-header-content">
+      <h4 class="follow-me-title">Follow Me</h4>
+      <p class="portfolio-details-1"> <a href="https://www.linkedin.com/in/juliavincent881323/">Follow me</a> here! Really! Click me!</p>
+    </div> 
+    </header>
+   
+    <footer class="portfolio-footer">
+<hr>
+<div class="footer-content"></div>
+<ul class="footer-list">
+    <li>About Me</li>
+    <li>My Work</li>
+    <li>Contact Me</li>
+</ul>
+    </div>
+    </footer>
+    <div id="popup" class="popup">
+        <span class="close-btn-1">&times; </span>
+        <div class="popup-content">
+            <img src="https://cdn.pixabay.com/photo/2023/09/13/07/29/ghost-8250317_1280.png" alt="popup image">
+            <p>This is a pop-up! You can close me now.</p>
+
+        </div>
+
+    </div>
+</body>
+</html>
